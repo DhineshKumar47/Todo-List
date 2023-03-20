@@ -1,0 +1,61 @@
+body{
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(6,3,2,1) 100%);
+}
+
+#wrapper{
+    background-color: rgb(74, 66, 66);
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    margin: 200px auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h2{
+    color:rgb(71, 131, 111);
+    letter-spacing: 1px;
+}
+
+#input{
+     height: 30px;
+     width: 300px;
+     border-radius: 5px;
+     padding: 10px;
+     margin-top: 30px;
+     border: 10px rgb(233, 227, 227);
+}
+#wrapper h2{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top:20px;
+    background-color:#ffeba7;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #102770;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#todoList{
+    color:white;
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todoList p{
+  margin:10px 0px;
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
